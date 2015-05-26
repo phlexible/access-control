@@ -6,7 +6,7 @@
  * @license   proprietary
  */
 
-namespace Phlexible\Component\AccessControl\Model;
+namespace Phlexible\Component\AccessControl\ContentObject;
 
 /**
  * Domain object interface
@@ -20,12 +20,5 @@ interface DomainObjectInterface
      *
      * @return array
      */
-    public function getObjectIdentifier();
-
-    /**
-     * Return domain object type
-     *
-     * @return array
-     */
-    public function getObjectType();
+    public function getDomainObjectIdentifier();
 }
